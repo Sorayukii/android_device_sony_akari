@@ -23,7 +23,6 @@ TARGET_ENABLE_BLUR := true
 PRODUCT_GMS_CLIENTID_BASE := android-sony-mobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE="H8296" \
-    PRODUCT_NAME="H8296" \
+    DeviceProduct=H8296 \
     BuildDesc="H8296-user 10 52.1.A.3.49 052001A003004902006556692 release-keys" \
     BuildFingerprint=Sony/H8296/H8296:10/52.1.A.3.49/052001A003004902006556692:user/release-keys
