@@ -8,12 +8,12 @@
 $(call inherit-product, device/sony/akari/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Setup keystore
--include vendor/lineage-priv/keys/keys.mk
+# -include vendor/lineage-priv/keys/keys.mk
 
-PRODUCT_NAME := lineage_akari
+PRODUCT_NAME := arrow_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
@@ -22,6 +22,9 @@ PRODUCT_MODEL := Xperia XZ2
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
 TARGET_DISABLE_EPPE := true
+
+DEVICE_MAINTAINER := Ivy
+DEVICE_MAINTAINER_LINK := https://t.me/kanonify
 
 PRODUCT_GMS_CLIENTID_BASE := android-sony-mobile
 
